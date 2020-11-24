@@ -70,7 +70,7 @@ jobs:
       uses: actions/upload-artifact@master
       if: always()
       with:
-        name: Padavan-packages-K2
+        name: Padavan-packages-K1
         path: /opt/images
     - name: Upload firmware to cowtransfer
       if: always()
