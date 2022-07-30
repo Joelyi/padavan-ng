@@ -52,7 +52,6 @@ jobs:
         sed -i 's/{ "wl_auth_mode", "psk" },/{ "wl_auth_mode", "open" },/g' /opt/rt-n56u/trunk/user/shared/defaults.c
         sed -i 's/{ "rt_auth_mode", "psk" },/{ "rt_auth_mode", "open" },/g' /opt/rt-n56u/trunk/user/shared/defaults.c
         sed -i 's/my.router/p.to/g' /opt/rt-n56u/trunk/user/rc/net_wan.c  
-        sed -i 's/192.168.1.1/192.168.2.1/g' /opt/rt-n56u/trunk/user/www/n56u_ribbon_fixed/Advanced_SettingBackup_Content.asp
         mkdir -p /opt/images/
         #
         cd /opt/Btools/Setconfig/
