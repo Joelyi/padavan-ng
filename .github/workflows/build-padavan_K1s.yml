@@ -79,6 +79,7 @@ jobs:
         sudo ./clear_tree.sh
         sudo ./build_firmware.sh
         sudo mv -f images/*.trx /opt/images/
+        sudo mv -f images/*.trx /opt/images/PSG1208s_${{ steps.current-time.outputs.formattedTime }}.trx
     - name : Upload packages
       uses: actions/upload-artifact@master
       if: always()
